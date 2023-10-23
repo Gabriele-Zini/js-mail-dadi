@@ -1,0 +1,42 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
+/* Utilities */
+
+body {
+background-image: url(../);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-dir-column {
+    flex-direction: column;
+}
+
+.border {
+    border: 2px solid lightgray;
+}
+
+.card {
+    border-radius: 20px;
+    background: rgba(135, 206, 250, 0.695);
+    box-shadow: 0 2px 2px 10px rgba(0, 0, 0, 0.947);
+}
+

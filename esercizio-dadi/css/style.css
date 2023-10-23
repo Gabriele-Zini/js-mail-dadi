@@ -1,0 +1,123 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
+/* Utilities */
+
+body {
+padding: 4rem;
+background-image: url(../img/hollowed-boxes.png);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-dir-column {
+    flex-direction: column;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+
+.border {
+    border: 2px solid lightgray;
+}
+
+.card {
+    border-radius: 20px;
+    background: rgba(135, 206, 250, 0.695);
+    min-height: 300px;
+    min-width: 600px;
+    padding: 4rem;
+    box-shadow: 0 5px 2px 4px rgba(0, 0, 0, 0.264);
+}
+
+button {
+    padding: .4rem .7rem;
+    border-radius: 10px;
+    background-color: chocolate;
+}
+
+.ms-3 {
+    margin-left: .3rem;
+}
+
+
+.ms-5 {
+    margin-left: 2rem;
+}
+
+.mt-5 {
+    margin-top: 2rem;
+}
+
+
+.mini-card {
+    border-radius: 10px;
+    margin: 2rem;
+    padding: 2rem;
+    box-shadow: 0 5px 2px 4px rgba(0, 0, 0, 0.264);
+    border: 2px solid black;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-light-salmon {
+    background-color: lightsalmon;
+}
+
+.bg-light-beige {
+    background-color: beige;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .card {
+        border-radius: 20px;
+        min-height: 300px;
+        min-width: 200px;
+        padding: 2rem;
+    }
+
+    .mini-card {
+        border-radius: 10px;
+        margin: 2rem 0;
+        padding: .8rem;
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-size: .8rem;
+    }
+
+    button {
+        padding: .1rem .3rem;
+        font-size: .7rem;
+    }
+
+        
+        
+
+    
+}

@@ -4,17 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body class="d-flex justify-content-center align-items-center">
     
-    <div>
-        <label for="your-dice">Roll your dice</label>
-        <button class="your-dice" id="your-dice">Your Dice</i></button>
-        <label for="computer-dice">Roll the computer dice</label>
-        <button class="computer-dice" id="computer-dice">Computer Dice</i></button>
+    <div class="card border">
+        <div class="d-flex justify-content-between">
+            <div class="d-flex flex-dir-column align-items-center">
+                <button class="your-dice ms-3" id="your-dice">Your Dice</i></button>
+            </div>
+            <div class="d-flex flex-dir-column align-items-center">
+                <button class="computer-dice ms-3" id="computer-dice">Computer Dice</i></button>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center flex-dir-column">
+            <button class="clear-button " id="clear-button">Clear</button>
+        </div>
+        <div class="result-printed">
     </div>
 
-    <div class="result-printed">
         
     </div>
     <script src="./js/script.js"></script>

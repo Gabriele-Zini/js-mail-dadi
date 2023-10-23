@@ -13,7 +13,7 @@ let firstBtnClicked = false;
 yourDiceBtn.addEventListener("click", function () {
   userNumber = Math.ceil(Math.random() * 6);
   const userNumberPrinted = `your number: ${userNumber}`;
-  resultPrinted.innerHTML += ` <div>${userNumberPrinted}</div>`;
+  resultPrinted.innerHTML += ` <div class="mini-card bg-light-salmon">${userNumberPrinted}</div>`;
   firstBtnClicked = true;
 });
 
@@ -29,11 +29,11 @@ computerDiceBtn.addEventListener("click", function () {
     } else {
       result = "You tied against the computer.";
     }
-    resultPrinted.innerHTML += ` <div>${computerNumberPrinted}</div>`;
+    resultPrinted.innerHTML += ` <div class="mini-card bg-light-beige">${computerNumberPrinted}</div>`;
 
     // display result
     setTimeout(function () {
-      resultPrinted.innerHTML += `<div>${result}</div>`;
+      resultPrinted.innerHTML += `<div class="mini-card bg-white">${result}</div>`;
     }, 1000);
     firstBtnClicked = false;
   } else {
@@ -43,4 +43,12 @@ computerDiceBtn.addEventListener("click", function () {
 });
 
 
+const clearButton = document.querySelector(".clear-button");
+clearButton.addEventListener("click", function () {
+  resultPrinted.innerHTML = "";
+  userNumber = "";
+  computerNumber = "";
+  result = "";
+  firstBtnClicked = false;
+});
 
