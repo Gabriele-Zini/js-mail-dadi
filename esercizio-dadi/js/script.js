@@ -31,6 +31,7 @@ computerDiceBtn.addEventListener("click", function () {
     }
     resultPrinted.innerHTML += ` <div>${computerNumberPrinted}</div>`;
 
+    // display result
     setTimeout(function () {
       resultPrinted.innerHTML += `<div>${result}</div>`;
     }, 1000);
@@ -40,3 +41,6 @@ computerDiceBtn.addEventListener("click", function () {
     window.location.reload;
   }
 });
+
+
+
