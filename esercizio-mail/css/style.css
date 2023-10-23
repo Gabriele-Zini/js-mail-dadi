@@ -11,7 +11,11 @@
 /* Utilities */
 
 body {
-background-image: url(../);
+padding: 4rem;
+background-image: url(../img/confetti-doodles.png);
+}
+.d-hidden {
+    display: none;
 }
 
 .d-flex {
@@ -22,13 +26,18 @@ background-image: url(../);
     justify-content: center;
 }
 
-.align-items-center {
-    align-items: center;
+.align-items-start {
+    align-items: flex-start;
 }
 
 .flex-dir-column {
     flex-direction: column;
 }
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
 
 .border {
     border: 2px solid lightgray;
@@ -36,7 +45,56 @@ background-image: url(../);
 
 .card {
     border-radius: 20px;
-    background: rgba(135, 206, 250, 0.695);
-    box-shadow: 0 2px 2px 10px rgba(0, 0, 0, 0.947);
+    background: rgba(0, 0, 255, 0.425);
+    min-height: 300px;
+    min-width: 600px;
+    padding: 4rem;
+    box-shadow: 0 5px 2px 4px rgba(0, 0, 0, 0.264);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
 }
 
+button {
+    padding: .4rem .7rem;
+    border-radius: 10px;
+    background-color: chocolate;
+}
+
+.ms-3 {
+    margin-left: .3rem;
+}
+
+
+.ms-5 {
+    margin-left: 2rem;
+}
+
+.mt-5 {
+    margin-top: 2rem;
+}
+
+
+.mini-card {
+    border-radius: 10px;
+    margin: 2rem;
+    padding: 2rem;
+    box-shadow: 0 5px 2px 4px rgba(0, 0, 0, 0.264);
+    border: 2px solid black;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: black;
+}
+
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-light-salmon {
+    background-color: lightsalmon;
+}
+
+.bg-light-beige {
+    background-color: beige;
+}

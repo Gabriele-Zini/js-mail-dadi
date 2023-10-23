@@ -6,14 +6,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    <div>
+<body class="d-flex justify-content-center">
+    <div class="card">
         <label for="email">write your mail</label>
-        <input type="email" class="user-input">
-        <button class="btn">Send</button>
+        <input type="email" class="user-input ms-5">
+        <button class="btn ms-5">Send</button>
+        <button class="clear-button">Clear</button>
+        <div class="answer mini-card bg-white d-hidden"></div>
     </div>
 
-    <div class="answer"></div>
+   
     
     <script src="./js/script.js"></script>
 </body>

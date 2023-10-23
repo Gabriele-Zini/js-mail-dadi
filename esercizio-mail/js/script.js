@@ -14,6 +14,7 @@ let conditionFlag = false;
 
 btn.addEventListener("click", function () {
   const userEmail = userInput.value;
+  answer.classList.remove("d-hidden");
 
   for (i = 0; i < arrayEmail.length; i++) {
     if (userEmail === arrayEmail[i]) {
@@ -26,4 +27,10 @@ btn.addEventListener("click", function () {
   } else {
     answer.innerHTML = `<div>Invalid email, access denied.</div>`;
   }
+});
+
+const clearButton = document.querySelector(".clear-button");
+clearButton.addEventListener("click", function () {
+  answer.innerHTML = "";
+  answer.classList.add("d-hidden");
 });
