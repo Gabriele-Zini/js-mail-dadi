@@ -12,7 +12,7 @@ Determine the winner based on who scores higher.
 - user number
 - computer number
 - result
-- condition flag
+- condition flag named firstBtnClicked
 
 ```javascript
 // DATA COLLECTION
