@@ -102,3 +102,8 @@ button {
 input {
     padding: .3rem;
 }
+
+button:hover {
+    background-color: red;
+}
+

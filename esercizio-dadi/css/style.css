@@ -92,7 +92,9 @@ button {
     background-color: beige;
 }
 
-
+button:hover {
+    background-color: gray;
+}
 
 @media screen and (max-width: 500px) {
     .card {
@@ -115,9 +117,4 @@ button {
         padding: .1rem .3rem;
         font-size: .7rem;
     }
-
-        
-        
-
-    
 }
