@@ -98,3 +98,7 @@ button {
 .bg-light-beige {
     background-color: beige;
 }
+
+input {
+    padding: .3rem;
+}
