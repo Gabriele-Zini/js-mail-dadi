@@ -20,7 +20,7 @@ const arrayEmail = [
   "giuseppeverdi@hotmail.it",
   "mariorossi@libero.it",
   "gioacchinorossini@tiscali.it",
-  "napoleonebonaparte",
+  "napoleonebonaparte@libero.it",
 ];
 
 const btn = document.querySelector(".btn");
