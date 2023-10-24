@@ -34,4 +34,5 @@ clearButton.addEventListener("click", function () {
   answer.innerHTML = "";
   answer.classList.add("d-hidden");
   userInput.value = "";
+  conditionFlag = false;
 });
